@@ -25,7 +25,7 @@ class child extends parent implements inter{
 public class test01 {
 
 	public static void main(String[] args) {
-		parent p = new parent(3,3.7f);
+		parent p = new parent(3,3.9f);
 		inter in = new child();
 		float result = in.methodA(p.a, p.b);
 		System.out.println(result);
